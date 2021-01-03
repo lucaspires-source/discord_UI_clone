@@ -38,6 +38,7 @@ html , body, #root{
     --mention-message: #413f3f;
  
     --link: #5d80d6;
+    --home: #6633cc;
  
   }
 `

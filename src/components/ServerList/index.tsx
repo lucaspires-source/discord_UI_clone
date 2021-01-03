@@ -5,22 +5,24 @@ import { Container, Separator } from './styles'
 
 const ServerList: React.FC = () => {
     return (
-        <>
-            <Container/>
-            <Separator/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-            <ServerButton/>
-        </>
+      
+            <Container>
+                <ServerButton isHome/>
+                <Separator/>
+
+                <ServerButton/>
+                <ServerButton hasNotifications/>
+                <ServerButton/>
+                <ServerButton/>
+                <ServerButton/>
+                <ServerButton mentions={589}/>
+                <ServerButton/>
+                <ServerButton/>
+                <ServerButton/>
+                <ServerButton mentions={2}/>
+                <ServerButton/>
+                <ServerButton hasNotifications/>
+            </Container>
     )
 }
 
