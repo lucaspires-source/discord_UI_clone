@@ -1,13 +1,34 @@
-import React from 'react'
-import {Container} from './styles'
+import React from 'react';
+
+import {
+  Container,
+  Profile,
+  Avatar,
+  UserData,
+  Icons,
+  MicIcon,
+  HeadphoneIcon,
+  SettingsIcon,
+} from './styles';
 
 const UserInfo: React.FC = () => {
-    return (
-        <Container>
+  return (
+    <Container>
+      <Profile>
+        <Avatar />
+        <UserData>
+          <strong>Lucas Ribeiro</strong>
+          <span>#2689</span>
+        </UserData>
+      </Profile>
 
-        </Container>
+      <Icons>
+        <MicIcon />
+        <HeadphoneIcon />
+        <SettingsIcon />
+      </Icons>
+    </Container>
+  );
+};
 
-    )
-}
-
-export default UserInfo
+export default UserInfo;
