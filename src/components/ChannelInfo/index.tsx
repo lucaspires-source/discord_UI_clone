@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container,Title,HashtagIcon,Separator,Description} from './styles'
 
-const ServerName: React.FC = () => {
+const ChannelInfo: React.FC = () => {
     return (
         <Container>
             <HashtagIcon/>
@@ -14,4 +14,4 @@ const ServerName: React.FC = () => {
     )
 }
 
-export default ServerName
+export default ChannelInfo
