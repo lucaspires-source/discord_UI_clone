@@ -1,8 +1,7 @@
 import React from 'react'
-import ServerList from '../ServerList'
 import {Container,Title,ExpandIcon} from './styles'
 
-const ServerName: React.FC = () => {
+const ChannelInfo: React.FC = () => {
     return (
         <Container>
             <Title>Servidor do Lucas</Title>
@@ -13,4 +12,4 @@ const ServerName: React.FC = () => {
     )
 }
 
-export default ServerName
+export default ChannelInfo
