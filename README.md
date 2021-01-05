@@ -4,7 +4,8 @@ Project based on Rocketseat Tutorial.
 
 Discord Desktop UI Clone Made with react,typeScript and Styled Components
 ## `Project images`
-![Homepage](https://github.com/lucaspires-source/discord_UI_cloneblob/main/Project%20Images/clone.jpg?raw=true)
+![Homepage](https://github.com/lucaspires-source/discord_UI_clone/blob/main/Project%20Images/clone.jpg)
+
 
 
 ## Available Scripts
