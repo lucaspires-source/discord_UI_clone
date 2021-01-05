@@ -7,3 +7,7 @@
 [0104/162954.258:ERROR:process_info.cc(359)] UncheckedAllocate
 [0104/163005.226:ERROR:process_info.cc(359)] UncheckedAllocate
 [0104/163044.715:ERROR:process_info.cc(359)] UncheckedAllocate
+[0104/164043.629:ERROR:process_info.cc(359)] UncheckedAllocate
+[0104/164046.081:ERROR:process_info.cc(359)] UncheckedAllocate
+[0104/164546.093:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0104/165550.142:ERROR:process_info.cc(359)] UncheckedAllocate
